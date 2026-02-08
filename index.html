@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>TikTak</title>
+</head>
+<body>
+
+  <div id="container2">
+
+    <div class="titulo">
+        <h1 id="titulo" style="color: black;">Inicie O Jogo</h1> &nbsp;&nbsp;&nbsp;&nbsp;
+        <h4 style="font-size: 30px; color: red; font-weight: 900; " id="escolhido"></h4>
+    </div>
+    <p>Temporizador:</p>
+    <h3 id="timer">10</h3>
+
+    <div id="box2">
+
+      <button id="O"> <h2>O</h2> </button>
+      <button id="X"> <h2>X</h2> </button>
+
+    </div>
+
+        <button id="btn">Iniciar Jogo</button>
+
+  </div>
+
+  <div id="container">
+
+    <div class="titulo">
+      <h1 style="color: white; font-size: 35px;">Tik</h1><h4 style="color: red; font-size: 35px;">Tak</h4><h4 style="color: greenyellow; font-size: 35px;">Toe</h4>
+    </div>
+
+    <div class="box">
+      <table>
+        <tr>
+          <td class="celula"></td>
+          <td class="celula"></td>
+          <td class="celula"></td>
+        </tr>
+        <tr>
+          <td class="celula"></td>
+          <td class="celula"></td>
+          <td class="celula"></td>
+        </tr>
+        <tr>
+          <td class="celula"></td>
+          <td class="celula"></td>
+          <td class="celula"></td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <div id="container3">
+
+    <div class="titulo">
+      <h1>Classificação</h1>
+    </div>
+
+    <div id="Classificacao">
+      <table>
+        <tr>
+          <th>Jogador</th>
+          <th>Vitórias</th>
+        </tr>
+        <tr>
+          <td><h3>O</h3></td>
+          <td><span id="scoreO">0</span></td>
+        </tr>
+        <tr>
+          <td><h3>X</h3></td>
+          <td><span id="scoreX">0</span></td>
+        </tr>
+        <tr>
+          <td><h3>Velha</h3></td>
+          <td><span id="velha">0</span></td>
+        </tr>
+      </table>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
