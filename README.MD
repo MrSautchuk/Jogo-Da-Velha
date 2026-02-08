@@ -1,6 +1,6 @@
 # TikTakToe 🕹️
 
-Projeto desenvolvido como parte dos meus estudos de programação no curso de **Desenvolvimento de Software Multiplataforma da Fatec de Olímpia**. O foco principal foi consolidar conceitos de lógica e manipulação do DOM durante minha transição de carreira para a área de tecnologia.
+Projeto desenvolvido como parte dos meus estudos de programação**. O foco principal foi consolidar conceitos de lógica e manipulação do DOM durante minha transição de carreira para a área de tecnologia.
 
 ## 🚀 Funcionalidades
 
